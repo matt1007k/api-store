@@ -24,7 +24,7 @@ gem 'puma', '~> 3.11'
 
 gem 'devise_token_auth'
 gem 'rack-cors'
-
+gem 'aasm', '~> 5.0', '>= 5.0.1'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
